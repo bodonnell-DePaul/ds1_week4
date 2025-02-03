@@ -1,4 +1,4 @@
-## What is the difference between a Java ArrayList a HashMap and HashSet
+## What is the difference between different Java Data Structures
 In Java, `ArrayList`, `HashMap` and `HashSet` are two different types of collections that serve different purposes:
 
 ### ArrayList
