@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) {
-        String csvFile = "/home/bodonnell/csc402/lectures/week4/demo/202303300_batting.csv";
+        String csvFile = "C:/Users/bodonne3/OneDrive - DePaul University/Documents/CSC402/csc402_week4/demo/202303300_batting.csv";//"/home/bodonnell/csc402/lectures/week4/demo/202303300_batting.csv";
         List<PositionPlayer> persons = new ArrayList<>();
 
         try (CSVReader reader = new CSVReader(new FileReader(csvFile))) {
@@ -31,6 +31,8 @@ public class App {
             e.printStackTrace();
         }
 
+
+        String[] myNormalArray = new String[25];
         System.out.println("Hello World!");
     }
 }

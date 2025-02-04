@@ -241,6 +241,16 @@ public class App {
         linkedList.add("Programming");
         linkedList.add("Language");
 
+        // Stack
+        Stack<String> stack = new Stack<>();
+        stack.push("apple");
+        stack.push("banana");
+        stack.push("cherry");
+        System.out.println(stack.peek()); // Output: cherry
+        System.out.println(stack.pop()); // Output: cherry
+        System.out.println(stack.pop()); // Output: banana
+        System.out.println(stack.isEmpty()); // Output: false
+
         // PriorityQueue
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.add(5);
