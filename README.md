@@ -1,6 +1,4 @@
 ## What is the difference between different Java Data Structures
-In Java, `HashMap` and `HashSet` are two different types of collections that serve different purposes:
-
 
 ### Deque
 - **Type**: Double-ended queue
